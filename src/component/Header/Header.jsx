@@ -2,22 +2,22 @@ import Container from 'react-bootstrap/Container'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropDown from 'react-bootstrap/NavDropdown'
 import Nav from 'react-bootstrap/Nav'
-import '../component/Header.css';
+import '../Header/Header.css'
 import Button from 'react-bootstrap/esm/Button';
 
 export function Header() {
-    
+
     return (
         <Navbar expand="md" className='nav-header' fixed='top'>
             <Container fluid>
                 <Navbar.Brand href='#Home' className='p-3 fw-bold fst-italic'>
-                <img
-                    src='src/assets/diamond-svgrepo-com.svg'
-                    width='60'
-                    height='60'
-                    className=''
-                    alt=''
-                />
+                    <img
+                        src='src/assets/diamond-svgrepo-com.svg'
+                        width='60'
+                        height='60'
+                        className=''
+                        alt=''
+                    />
                     Valuation Diamond
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -34,9 +34,9 @@ export function Header() {
                             <NavDropDown.Item href="#action/3.3">Diamond valuation policy</NavDropDown.Item>
                             <NavDropDown.Divider />
                             <NavDropDown.Item href="#action/3.4">
-                               Type of Valuation
+                                Type of Valuation
                             </NavDropDown.Item>
-                        </NavDropDown> 
+                        </NavDropDown>
                         <Nav.Link href=''>Check</Nav.Link>
                         <Nav.Link href=''>Blog</Nav.Link>
                         <Nav.Link href=''>Contact</Nav.Link>
