@@ -1,4 +1,69 @@
-function Login(){
-    return <div>Hello ca nha nhiu cua kem</div>
+import { useState, useEffect } from "react";
+import '../../pagetyle/Login.css'
+function Login() {
+    const [usename, setUsername] = useState();
+    const [password, setPassword] = useState();
+    return <div className="form-container d-flex justify-content-center align-items-center">
+        <form
+            className="form-row my-5 p-5"
+            style={{ width: "50%", boxShadow: "rgb(0 0 0 / 16%) 1px 1px 10px" }}   
+        >
+            <div className="form-title d-flex justify-content-center mb-3 fw-bold">
+                <h1>Login</h1>
+            </div>
+            <div className="form-group mt-3" >
+                <label htmlFor="">Email address</label>
+                <input
+                    type="text"
+                    placeholder="Email address"
+                    name=""
+                    value={''}
+                    className="form-control mt-1 py-2"
+                />
+            </div>
+            <div className="form-group mt-3">
+                <div className="form-password d-flex justify-content-between">
+                    <label htmlFor="">Password</label>
+                    <div className="form-forgot"><a href="" className="link-secondary">Forgot password?</a></div>
+                </div>
+                <input
+                    type="password"
+                    placeholder="Enter password"
+                    name=""
+                    value={''}
+                    className="form-control mt-1 py-2"
+                />
+            </div>
+            <div className="form-button d-grid mt-4 text-center">
+                <button type="submit" className="btn fw-bold py-2" style={{ backgroundColor: "#CCFBF0" }}>
+                    Submit
+                </button>
+            </div>
+
+            <div className="d-flex align-items-center mt-4">
+                <div style={{ flex: 1, backgroundColor: "#DDE1DF", height: "2px" }} />
+                <p style={{ margin: "0 10px" }}>Or sign in with</p>
+                <div style={{ flex: 1, backgroundColor: "#DDE1DF", height: "2px" }} />
+            </div>
+
+            <div className="form-img text-center mt-4" onClick={''}>
+                <img
+                    src="/src/assets/Google.png"
+                    alt="google"
+                    className="img rounded-circle  border border-dark "
+                    height="40"
+                    width="40"
+                />
+            </div>
+            <hr
+                style={{
+                    background: "#DDE1DF",
+                    height: "2px",
+                    marginTop: " 1.5em"
+                }}
+            />
+            <p className="text-center mt-4">You dont have an account? <a href="" className="link-secondary">Sign up</a></p>
+        </form>
+    </div>
 }
 export default Login;

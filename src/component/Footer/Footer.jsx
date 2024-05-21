@@ -4,13 +4,12 @@ import '../Footer/Footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 function Footer() {
     return (
-        <div className='footer'>
+        <div className='footer' style={{backgroundColor:"#E2FBF5"}}>
             <Container fluid>
-                <Row className='mt-auto border border-dark '>
+                <Row className='mt-auto'>
                     <Col className='d-flex align-items-center justify-content-center'>
                         <Image 
-                            src='/src/assets/diamond-svgrepo-com.svg'
-                            
+                            src='/src/assets/diamond-svgrepo-com.svg'                     
                             alt=''
                             width='60'
                             height='60'

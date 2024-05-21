@@ -1,4 +1,6 @@
 function Signup(){
-    return <div>Hello ca nha nhiu cua kem</div>
+   return <form>
+    
+   </form>
 }
 export default Signup;
