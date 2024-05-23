@@ -1,4 +1,5 @@
+import React from 'react'
 function EvaluationServicePage(){
-    return <div>Hello ca nha nhiu cua kem</div>
+    return <div>Evaluation Service</div>
 }
 export default EvaluationServicePage;

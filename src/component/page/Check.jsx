@@ -1,4 +1,5 @@
+import React from 'react'
 function Check(){
-    return <div>Hello ca nha nhiu cua kem</div>
+    return <div>Check</div>
 }
 export default Check

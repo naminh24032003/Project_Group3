@@ -1,5 +1,5 @@
-
+import React from 'react'
 function Calculate(){
-    return <div>Hello ca nha nhiu cua kem</div>
+    return <div>Calculate</div>
 }
 export default Calculate
