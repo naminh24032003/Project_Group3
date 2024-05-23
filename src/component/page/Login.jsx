@@ -1,6 +1,6 @@
 import { useState } from "react";
 import axios from 'axios';
-import React from 'react'
+
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -103,7 +103,7 @@ function Login() {
                         marginTop: "1.5em"
                     }}
                 />
-                <p className="text-center mt-4">You don't have an account? <a href="" className="link-secondary">Sign up</a></p>
+                <p className="text-center mt-4">You don't have an account? <Link to="/signup" classname ="link-secondary">Sign up</Link></p>
             </form>
         </div>
     );

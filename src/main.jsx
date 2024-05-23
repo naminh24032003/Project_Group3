@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
@@ -33,3 +34,20 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   </React.StrictMode >
 );
+=======
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import App from './App.jsx'
+import { BrowserRouter as Routes,Route } from 'react-router-dom'
+import Signup from './component/page/Signup.jsx'
+
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+    <Routes>
+      <Route path='/signup' component={Signup}></Route>
+    </Routes>
+  </React.StrictMode>,
+)
+>>>>>>> 694f14f3fad000efd1683b4df7bad78f11f00b4a
