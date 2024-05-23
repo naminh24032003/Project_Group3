@@ -1,5 +1,6 @@
 import { useState } from "react";
 import axios from 'axios';
+import { NavLink } from "react-router-dom";
 
 
 function Login() {
@@ -103,7 +104,7 @@ function Login() {
                         marginTop: "1.5em"
                     }}
                 />
-                <p className="text-center mt-4">You don't have an account? <Link to="/signup" classname ="link-secondary">Sign up</Link></p>
+                <p className="text-center mt-4">You don't have an account? <NavLink to="/signup" className ="link-secondary">Sign up</NavLink></p>
             </form>
         </div>
     );
