@@ -9,10 +9,10 @@ function Footer() {
                 <Row className='mt-auto'>
                     <Col className='d-flex align-items-center justify-content-center' style={{ flex: "3" }}>
                         <Image
-                            src='/src/assets/diamond-svgrepo-com.svg'
+                            src='/src/assets/logo.png'
                             alt=''
-                            width='60'
-                            height='60'
+                            width='40%'
+                            height='90%'
                         />
                     </Col>
                     <Col className='my-4'>
