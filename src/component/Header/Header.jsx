@@ -12,9 +12,9 @@ function Header() {
             <Container fluid>
                 <Navbar.Brand href='#home' className='p-3 fw-bold fst-italic'>
                     <img
-                        src='/src/assets/diamond-svgrepo-com.svg'
-                        width='60'
-                        height='60'
+                        src='/src/assets/logo.jpg'
+                        width='30%'
+                        height='30%'
                         alt='Logo'
                     />
                     Valuation Diamond
