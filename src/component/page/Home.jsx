@@ -73,16 +73,7 @@ const Home = () => {
             <Container id="contactt" className="my-5">
             
             </Container>
-
-
             </Container>
-
-
-
-
-
-
-
 
         </div>
     );
