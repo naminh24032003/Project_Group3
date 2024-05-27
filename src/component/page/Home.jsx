@@ -71,17 +71,7 @@ const Home = () => {
 
                 </div>
             <Container id="contactt" className="my-5">
-            <Row className='w-100 border border-dark'  style={{height: "100%"}}>
-                <div className='m-3 d-flex '>              
-                <Col md={6} className="justify-content center">
-                        <p className='text-center'>tranềnkfefkkefnekfnekfenfkenfkenf </p>
-                    </Col> 
-
-                <Col md={6} className="justify-content center">
-                        <p className='text-center'>tran ẻerjerjekrekrekrekrekdfdfndfkfsdsdsdsdsnfkdnkfdnfkdnkdfkddfdfdfdfdfdndkndks</p>
-                    </Col>
-                </div>               
-            </Row>
+            
             </Container>
 
 
