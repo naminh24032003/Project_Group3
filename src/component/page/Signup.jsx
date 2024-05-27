@@ -38,7 +38,7 @@
     return (
       <div className="form-container d-flex justify-content-center align-items-center">
         <form
-                  
+                  className="form-row my-5 p-5" 
                   style={{ width: "600px", boxShadow: "rgb(0 0 0 / 16%) 1px 1px 10px" }}
                   onSubmit={handleOnSubmit}
           >
