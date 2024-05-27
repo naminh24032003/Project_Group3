@@ -12,7 +12,7 @@ function Header() {
             <Container fluid>
                 <Navbar.Brand href='#home' className='p-3 fw-bold fst-italic'>
                     <img
-                        src='/src/assets/logo.jpg'
+                        src='/src/assets/logo.png'
                         width='30%'
                         height='30%'
                         alt='Logo'
