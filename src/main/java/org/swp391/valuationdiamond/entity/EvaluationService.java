@@ -1,5 +1,6 @@
 package org.swp391.valuationdiamond.entity;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Column;
@@ -38,13 +39,13 @@ public class EvaluationService {
   @Column(name = "service_price", nullable = true, precision = 18, scale = 0)
   BigDecimal servicePrice;
 
-  @OneToMany(mappedBy = "serviceId")
+  @OneToMany(mappedBy = "serviceId",  cascade = CascadeType.ALL)
   List<EvaluationRequest> evaluationRequests;
 
-  @OneToMany(mappedBy = "serviceId")
+  @OneToMany(mappedBy = "serviceId",  cascade = CascadeType.ALL)
   List<OrderDetails> orderDetails;
 
-  @ManyToOne
-  @JoinColumn(name = "order_id")
-  Order orderId;
+
+
+
 }

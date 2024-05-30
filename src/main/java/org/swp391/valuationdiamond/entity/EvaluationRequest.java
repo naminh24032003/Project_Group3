@@ -37,11 +37,11 @@ public class EvaluationRequest {
   @Column(name = "request_email", nullable = false, length = 255)
   String requestEmail;
 
-  @Column(name = "guestName", nullable = false, length = 255)
+  @Column(name = "guest_name", nullable = false, length = 255)
   String guestName;
 
   @Column(name = "status", nullable = true)
-  Boolean status;
+  String status;
 
   @Column(name = "phone_number", nullable = false, length = 255)
   String phoneNumber;
