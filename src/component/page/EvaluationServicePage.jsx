@@ -58,7 +58,7 @@ function EvaluationServicePage(){
       return (
         <div className="form-container justify-content-center align-items-center">
             <div className='justify-content-center d-flex my-2 p-4'>
-                <h1>Valuation Request Service anh la dep trai nhat</h1>
+                <h1>Valuation Request Service </h1>
             </div>
             <div
                 className="custom-hr"
